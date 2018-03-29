@@ -37,7 +37,7 @@ Although you can use them, for a more unique website, replace these images with 
 		var form_name = document.getElementById('form_name').value;
 		var form_email = document.getElementById('form_email').value;
 		
-		FS.identify(email_var, {"displayName": form_name, "email": form_email});
+		FS.identify(form_email, {"displayName": form_name, "email": form_email});
 		
 		console.log(form_name);
 		console.log(form_email);
